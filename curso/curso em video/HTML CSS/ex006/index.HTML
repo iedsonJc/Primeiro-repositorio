@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>ex006</title>
+</head>
+<body>
+    <H1>Lista</H1>
+    <hr>
+    <h2>Ordenadas</h2>
+    <p>São listar que a ordem dos item importam. <br>
+       Para criar uma ordered lists usamos a tag &lt;ol&gt; para delimitar a lista e a tag &lt;li&gt; para identificar cada item da lista.</p>
+       <ol>
+           <li>água gelada</li>
+           <li>suco solúvel</li>
+           <li>misturar bem</li>
+           <li>esta pronto</li>
+       </ol>
+       <p>A tag &lt;ol&gt; possui uma parâmetro type, onde configuramos o tipo de marcador da lista atual. As opçoes de valores para essa parâmetro são:</p>
+       <p>&rarr; 1-Valor padrão. Criar listas numeradas. Ex:1,2,3,4, <br>
+        &rarr; A-Criar listas alfabéticas em maiúsculas.Ex A,B,C,D,... <br>
+        &rarr; a-Criar listas alfabéticas minúsculas.Ex a,b,c,d... <br>
+        &rarr; I-Crar listas com algarismos romanos m maiúslas. Ex I,II,III,IV,.... <br>
+        &rarr; i- Criar listas com algarismos romanos em minúsculas. Ex i,ii,iii,... <br>
+        Você também pode indicar o inicio da contagem usando parâmetros star. <br>
+        Por exemplo, a tag &lt;ol type="I" start = "5"&gt; vai gerar itens numerados como V,VI ,VIII, XI,....</div></p>
+    <h2>Não ordenadas</h2>
+    <p>Ela é apenas uma ótima maneira para organizar os itens que não apresentam uma classificação necessariamente. <br>
+     Para criar uma unordered list, vamos usar a tag &lt;ul&gt; para delimitar a lista e a tag &lt;li&gt; para criar cada uma dos seus itens internos.</p>
+     <ul>
+         <li>Iêdson</li>
+         <li>Ieda</li>
+         <LI>Ingrid</LI>
+     </ul>
+    <p>O marcador padrão é a bolinha preta totalmente preenchida (circle), mas exite a opção de configurar a propriedade type da tag &lt;ul&gt; com os seguintes valores: <br>
+    &rarr; disc-Padrão. Uma bola preta tolamente pintada <br>
+    &rarr; circle-Uma bola com uma borda preta e sem preenchimento. <br>
+    &rarr; square- Um pequeno quadrado preto totalmente pintado.</p>
+    <H2>Misturando as coisas</H2>
+    <p>Podemos também criar listas mistas, configurando listas dentro de outras listas.</p>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <ol type="a">
+            <li>item 2.1</li>
+            <li>item 2.2</li>
+            <li>item 2.3</li>
+        </ol>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ol>
+    <h2>Lisata de Definição</h2>
+    <p>É como se fosse um dicionaáio, temos e as suas descrições . É uma lista sem demarcadores, mas bem útil em alguns casos. Toda lista de definições está dentro de uma tag &lt;dl&gt;(definition list) cada termo é um &lt;dt&gt;(definition term) e cada descrição é um  &lt;dd&gt; (definition description).</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação ultizada para criar o conteúdo de sites.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de maracação para a especificação de especificação de estilos em sites.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividades em sites.</dd>    
+    </dl>
+</body>
+</html>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*REGRA @charset caso haja problemas com acentuação*/
+body{
+    background-color: rgb(12, 133, 32)
+}
+ 
+.titulo{
+    background-color: black;
+    padding: 0%;
+    border: 6px ridge white;
+    margin: 1%;
+    text-align: center;
+    color: rgb(255, 251, 251);
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+
+
+.video{
+    font-size: xx-large;
+    padding-left: 30%;
+}
+
+#menu{
+    border: 10px;
+}
+#menu li {
+    list-style: none;
+    padding-left: 40%;
+    
+   
+}
+
+#menu a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
