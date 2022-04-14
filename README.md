@@ -1,2 +1,2 @@
 # cristocraticos
-desafio de projeto git/github DiO._
+ Primeiro desafio de projeto git/github DiO._
