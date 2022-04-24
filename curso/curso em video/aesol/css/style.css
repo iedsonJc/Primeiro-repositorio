@@ -1,0 +1,44 @@
+body{
+   background-color: #000000;
+   margin: auto;
+}
+.navbar{
+    background-color:rgb(19, 138, 14);
+    padding: auto;
+  
+}
+
+.logo{
+    margin-left: 40%;
+}
+
+#home{
+    background-color: rgb(241, 243, 241);
+    margin-top: 5px;
+    margin: 0.4%;
+}
+
+#projetos{
+    background-color: rgb(241, 243, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 138, 14);
+    margin-top: -1%;
+    margin-left: 0.4%;
+    margin-right: 0.4%;
+
+}
+.text{
+    padding-top: 0%;
+    margin-left: 25%;
+    margin-bottom: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+}
+.img-p{
+    margin: 15%;
+}
+
+.btn{
+    margin-left: 48%;
+    margin-top: 0%;
+}
