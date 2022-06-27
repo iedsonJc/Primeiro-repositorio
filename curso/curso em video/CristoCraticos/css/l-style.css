@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/*REGRA @charset caso haja problemas com acentuação*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(36, 41, 41);
+    color: white;
+}
+
+
+
+header .logo{
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header .menu{
+    margin-left: 100px;
+    margin-bottom: -20px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header .menu .opcoes{
+    background: black;
+    border: solid white 1px;
+    margin-right: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu .opcoes:hover{
+    background-color: white;
+    color: rgb(5, 5, 5);
+}
+
+.fa-solid{
+    
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.fa-solid:hover{
+    border-radius: rgb(252, 252, 252);
+    color: rgb(5, 5, 5);}
+
+ main .container{
+     background-color: rgba(138, 136, 133, 0.664);
+     margin: 10px;
+ }
+
+ main .post_{
+    margin-left: 10px;
+ }
+ main .title{
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ main .post{
+    font-size: larger;
+ }

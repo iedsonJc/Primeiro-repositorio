@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/*REGRA @charset caso haja problemas com acentuação*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(72, 236, 195, 0.685) 100%);
+   }
+
+header .container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: solid white 1px;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+header .menu{
+    margin-top: 50px;
+    margin-left: 700%;
+    
+}
+
+.menu .opcoes{
+    font-size: xx-large;
+    color: rgb(255, 249, 249);
+    cursor: pointer;
+
+}
+.menu .opcoes:hover{
+    border-radius: rgb(245, 241, 241);
+    color: rgb(255, 0, 0);
+}
+
+header .reds{
+    margin-top: -30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header .reds .icon:hover{
+    width: 37px;
+    height: 37px;
+}
+
+main .container{
+    margin: 20px;
+}
+
+
+footer{
+    background-color: black;
+}
+
+.rp{
+    color: white;
+    text-align: center;
+    font-family: "Arial Black";
+}
+

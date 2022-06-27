@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/*REGRA @charset caso haja problemas com acentuação*/
+
+/*configurações globais*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*configurações de todo o sites*/
+body {
+    border:solid 5px #0A0903;
+    background: #478978;
+}
+
+/*barra superior do site*/
+header .container{
+    background-color: #0A0903;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.logo{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: solid white 1px;
+
+}
+
+
+/*menu de navegação*/
+header nav a{
+    text-decoration: none; 
+}
+header .menu{
+    
+    margin-top: 50px;
+     
+}
+.menu .button{
+    background-color: rgba(0, 0, 0, 0);
+    border-style:none;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:capitalize;
+    cursor: pointer;
+}
+.botao {
+     font-size: x-large;
+     color: rgb(255, 255, 255);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+.menu .botao:hover{
+    color: rgb(252, 206, 1);
+}
+
+
+/*cainais e redes sociais*/
+header .reds{
+    width: auto;
+    margin-top: -30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header .reds .icon:hover{
+    width: 37px;
+    height: 37px;
+}
+
+
+
+/*escopo do site*/
+main .container{
+    margin:10px;
+    margin-top: 20px;
+    
+}
+main .title{
+    margin: 5px;
+    color: #FF0000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: 10px,10px,10px;
+}
+main .intro{
+    font-family:"Arial black";
+    font-size: larger;
+    margin:5px;
+    color: #000000;
+}
+main .conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*post e resumo de edilson*/
+main .post{
+    width: 80%;
+}
+main .img{
+    margin-left: 200px;
+    margin-top: -200px;
+}
+
+
+/*post e resumo de iedson*/
+main .post1{
+    margin-top: 150px;
+    width: 80%;
+    
+}
+main .img1{
+    margin-top: -200px;
+    margin-right: 200px;
+}
+
+
+
+/*roda-pé da pagina*/
+ footer{
+     background-color: black;
+ }
+ .rp{
+     color: white;
+     text-align: center;
+     font-family: "Arial Black";
+ }
